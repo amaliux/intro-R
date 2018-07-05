@@ -1,7 +1,7 @@
 # intro-R
 Knowing a little bit about our awesome friend R
 
-# First steps
+## First steps
 - [Download R](https://cran.itam.mx/)
 - [Download RStudio](https://www.rstudio.com/products/rstudio/download/#download)
 - [Clone this repo](https://www.rstudio.com/products/rstudio/download/#download):
