@@ -1,3 +1,6 @@
 [submodule "Intro"]
 	path = Intro
 	url = https://github.com/adfmb/Intro.git
+[submodule "IntroToDataScience"]
+	path = IntroToDataScience
+	url = https://github.com/adfmb/IntroToDataScience.git
