@@ -6,6 +6,7 @@ Knowing a little bit about our awesome friend R
 - [Download RStudio](https://www.rstudio.com/products/rstudio/download/#download)
 - [Clone this repository](https://www.rstudio.com/products/rstudio/download/#download):
   `git clone https://github.com/adfmb/intro-R.git`
+  - Or Fork it and then clone it from your user  `git clone https://github.com/<youruser>/intro-R.git`
 
 
 
