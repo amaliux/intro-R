@@ -8,6 +8,13 @@ Knowing a little bit about our awesome friend R
   `git clone https://github.com/adfmb/intro-R.git`
   - Or Fork it and then clone it from your user  `git clone https://github.com/<youruser>/intro-R.git`
 
+## After clone
+- Go to the repository's folder on your computer
+ `cd intro-R`
+- Create a folder with your name where you will be saving your progress
+ `mkdir <yourname>`
+
+
 
 
 
