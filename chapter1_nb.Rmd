@@ -1,10 +1,12 @@
 ---
 title: "Intro to basics"
+output:
+  html_document:
+    df_print: paged
 description: In this chapter, you will take your first steps with R. You will learn
   how to use the console as a calculator and how to assign variables. You will also
   get to know the basic data types in R. Let's get started!
 title_meta: Chapter 1
-output: html_notebook
 ---
 
 # Arithmetic with R
@@ -92,7 +94,7 @@ my_oranges <- "six"
 
 ```{r, echo=TRUE}
 # Create the variable my_fruit and print it out
-my_fruit <- my_apples + my_oranges
+# my_fruit <- my_apples + my_oranges
 ```
 
 ```{r, echo=TRUE}
