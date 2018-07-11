@@ -5,8 +5,12 @@ Knowing a little bit about our awesome friend R
 - [Download R](https://cran.itam.mx/)
 - [Download RStudio](https://www.rstudio.com/products/rstudio/download/#download)
 - [Clone this repository (with submodules)](https://www.rstudio.com/products/rstudio/download/#download):
+
   `git clone --recurse-submodules https://github.com/adfmb/intro-R.git`
-  - Or Fork it and then clone it from your user  `git clone --recurse-submodules https://github.com/<youruser>/intro-R.git`
+  
+  - Or Fork it and then clone it from your user 
+  
+  `git clone --recurse-submodules https://github.com/<youruser>/intro-R.git`
 
 ## After clone
 - Go to the repository's folder on your computer
