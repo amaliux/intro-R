@@ -2,12 +2,20 @@
 title: "intro-R"
 subtitle: Knowing a little bit about our awesome friend **R** helping us by our amazing pal **Git**
 output:
-  slidy_presentation: default
+  slidy_presentation: 
+    # incremental: true
+    # highlight:   # default tango  pygments  kate  monochrome  espresso  zenburn haddock
+    # keep_md: true
+    theme:  cerulean #   journal flatly readable  spacelab  cosmo lumen paper sandstone simplex yeti        
+    # logo: logo.png
 ---
 
 Workflow
 ===============================================
 A brief description for the recommended way to work on this course including the tools to use, source files, directories and the git's steps that we'll follow.
+
+[](logo.png)
+
 
 # First steps
 
