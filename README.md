@@ -11,12 +11,18 @@ Knowing a little bit about our awesome friend R
   - Or Fork it and then clone it from your user 
   
   `git clone --recurse-submodules https://github.com/<youruser>/intro-R.git`
+  
 
 ## After clone
 - Go to the repository's folder on your computer
  `cd intro-R`
+ - Add the repo-class from url for the future *pulls*:
+  
+  `git remote add repo-class https://github.com/adfmb/intro-R.git`
+- Check with the `git remote -v`
 - Create a folder with your name where you will be saving your progress
  `mkdir <yourname>`
+
 
 
 
