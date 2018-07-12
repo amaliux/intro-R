@@ -1,0 +1,111 @@
+---
+title: "Intro to basics"
+output:
+  html_document:
+    df_print: paged
+description: In this chapter, you will take your first steps with R. You will learn
+  how to use the console as a calculator and how to assign variables. You will also
+  get to know the basic data types in R. Let's get started!
+title_meta: Chapter 1
+---
+
+# Arithmetic with R
+
+In its most basic form, R can be used as a simple calculator. Consider the following arithmetic operators:
+
+- Addition: `+`
+- Subtraction: `-`
+- Multiplication: `*`
+- Division: `/`
+- Exponentiation: `^`
+- Modulo: `%%`
+
+The last two might need some explaining:
+
+- The `^` operator raises the number to its left to the power of the number to its right: for example `3^2` is `9`.
+- The modulo returns the remainder of the division of the number to the left by the number on its right, for example 5 modulo 3 or `5 %% 3` is 2.
+
+With this knowledge, follow the instructions below to complete the exercise.
+
+### Instructions
+- Type `2^5` in the editor to calculate 2 to the power 5.
+```{r}
+2^3
+```
+- Type `28 %% 6` to calculate 28 modulo 6.
+```{r}
+28 %% 6
+```
+
+- Note how the `#` symbol is used to add comments on the R code.
+
+### Hint
+Another example of the modulo operator: `9 %% 2` equals `1`.
+```{r, echo=TRUE}
+# Another example of the modulo operator: `9 %% 2` equals `1`.
+9 %% 2
+```
+
+
+# Variable assignment 
+
+A basic concept in (statistical) programming is called a **variable**. 
+
+A variable allows you to store a value (e.g. 4) or an object (e.g. a function description) in R. You can then later use this variable's name to easily access the value or the object that is stored within this variable. 
+
+You can assign a value 4 to a variable `my_var` with the command
+
+```{r}
+my_var <- 4
+```
+
+## over to you: 
+- Complete the code in the editor such that it assigns the value 42 to the variable `x` in the editor. Notice that when you ask R to print `x`, the value 42 appears.
+```{r}
+
+```
+
+## hint
+- Look at how the value 4 was assigned to `my_variable` in the exercise's assignment. Do the exact same thing in the editor, but now assign 42 to the variable `x`.
+
+- Remember that if you want to assign a number or an object to a variable in R, you can make use of the assignment operator `<-`. Alternatively, you can use `=`, but `<-` is widely preferred in the R community.
+
+```{r, echo=TRUE}
+# Assign a value to the variables my_apples and my_oranges
+my_apples  <- 5
+my_oranges <- 6
+
+# Add these two variables together
+my_apples + my_oranges
+
+# Create the variable my_fruit
+my_fruit <- my_apples + my_oranges
+```
+
+## watch out!
+Be careful with the operations between different types/classes of objects
+```{r, echo=TRUE}
+# Assign a value to the variable my_apples
+my_apples <- 5 
+
+# Fix the assignment of my_oranges
+my_oranges <- "six" 
+```
+
+```{r, echo=TRUE}
+# Create the variable my_fruit and print it out
+# my_fruit <- my_apples + my_oranges
+```
+
+```{r, echo=TRUE}
+class(my_oranges)
+```
+```{r, echo=TRUE}
+class(my_oranges)
+```
+So, in general, it's a good idea to check that the objetcs that are opperating between each other, are of the same class/type or we have to be conscients that sometimes, if the types are not equals but they are "almost operables", *R* will change at least one of them to a type that make both be "totaly operables". 
+
+There could be some warnings about this... it could be a good idea to knoe a little more about the **data types** that will be jumping in at our work.
+
+
+
