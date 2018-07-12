@@ -1,6 +1,6 @@
 intro-R
 ===============================================
-Knowing a little bit about our awesome friend R
+Knowing a little bit about our awesome friend **R** helping us by our amazing pal **Git**
 
 # First steps
 
