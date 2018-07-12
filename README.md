@@ -23,7 +23,7 @@ Knowing a little bit about our awesome friend **R** helping us by our amazing pa
   
 
 ## Add `remote`
-Here we'll "conect" or "link" our *fork's local clone* (our laptop) to the repo *adfmb/intro-R* frome where we'll be pulling the new material, most of it, at *sessions/* directory.
+Here we'll "conect" or "link" our *fork's local clone* (our laptop) to the repo *adfmb/intro-R* from where we'll be pulling the new material, most of it, at *sessions/* directory.
 
 - Go to the repository's folder on your computer
  `cd intro-R`
