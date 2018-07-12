@@ -27,3 +27,4 @@ Knowing a little bit about our awesome friend R
 - [Intro *by rstudio*](https://github.com/rstudio/Intro)
 - [courses-intro-to-r *by datacamp*](https://github.com/datacamp/courses-intro-to-r)
 - [IntroToDataScience *by EasyD*](https://github.com/EasyD/IntroToDataScience)
+- [git tour at **tutoriales/** *by ITAM-DS* ](https://github.com/ITAM-DS/tutoriales/blob/master/2-git-tour.Rmd)
