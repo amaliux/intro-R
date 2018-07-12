@@ -51,7 +51,7 @@ repo-class      https://github.com/adfmb/intro-R.git (push)
   
   `git push origin master`
 
-- If we want that our changes on our *fork* (on the web `<youruser>/intro-R`) be reflected on the *repo-class* (on the web `adfmb/intro-R`), as [@samorogu](https://github.com/samorogu) taught us at his [**Git's course**](https://github.com/mexmet/talleres-SME/blob/master/git/00_Intro_git.Rmd), we'll need to do a `pull-request` from the **browser** and wait for the authorized merge.
+- If we want that our changes on our *fork* (on the web `<youruser>/intro-R`) be reflected on the *repo-class* (on the web `adfmb/intro-R`), as [@samorogu](https://github.com/samorogu) taught us at his [**freaking awesome Git's course**](https://github.com/mexmet/talleres-SME/blob/master/git/00_Intro_git.Rmd), we'll need to do a `pull-request` from the **browser** and wait for the authorized merge.
 
 - When **new info is available on the repo-class** (on the web `adfmb/intro-R`), we'll bring it to our *fork's local clone* (our laptop) by:
 
