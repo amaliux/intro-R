@@ -1,4 +1,5 @@
-# intro-R
+intro-R
+===============================================
 Knowing a little bit about our awesome friend R
 
 # First steps
