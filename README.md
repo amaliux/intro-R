@@ -13,14 +13,29 @@ Knowing a little bit about our awesome friend R
   `git clone --recurse-submodules https://github.com/<youruser>/intro-R.git`
   
 
-## After clone
+## Add as `remote` the repo adfmb/intro-R
 - Go to the repository's folder on your computer
  `cd intro-R`
- - Add the repo-class from url for the future *pulls*:
+- Check with the `git remote -v`
+```
+➜ git remote -v
+origin  https://github.com/<youruser>/intro-R.git (fetch)
+origin  https://github.com/<youruser>/intro-R.git (push)
+```
+- Add the repo-class from url for the future *pulls*:
   
   `git remote add repo-class https://github.com/adfmb/intro-R.git`
-- Check with the `git remote -v`
-- Create a folder with your name where you will be saving your progress
+- Check again with the `git remote -v`
+```
+➜ git remote -v
+origin  https://github.com/<youruser>/intro-R.git (fetch)
+origin  https://github.com/<youruser>/intro-R.git (push)
+repo-class     https://github.com/adfmb/intro-R.git (fetch)
+repo-class      https://github.com/adfmb/intro-R.git (push)
+```
+
+## Your own working directory
+- Standing at *intro-R/*, create a folder with your name where you will be saving your progress
  `mkdir <yourname>`
 
 
